@@ -1,0 +1,266 @@
+/* contact us */
+
+
+.contact-us__container {
+    padding: 96px 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 96px;
+    /* background: #ebf0f9; */
+}
+
+.contact-us-left-part {
+    display: flex;
+    gap: 24px;
+}
+
+.little-line {
+    width: 72px;
+    height: 0px;
+    border: 2px solid #1d2130;
+    margin-top: 7px;
+}
+
+.contact-us-main-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 481px;
+}
+
+.little-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1d2130;
+    margin-bottom: 32px;
+}
+
+.contact-us-main-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #1d2130;
+    margin-bottom: 16px;
+}
+
+.contact-us-main-paragraph {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1d2130;
+    opacity: 0.7;
+}
+
+.contact-us-right-part {
+    max-width: 302px;
+    flex-shrink: 0;
+}
+
+.contact-us-lets-talk-section div p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1d2130;
+}
+
+.contact-us-lets-talk {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #1d2130;
+}
+
+.contact-us-lets-talk-section div {
+    display: flex;
+    gap: 16px;
+}
+
+.contact-us-lets-talk-section {
+    margin-bottom: 48px;
+}
+
+.contact-us-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.contact-us-section-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #525560;
+    max-width: 302px;
+}
+
+.contact-us-section-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #1d2130;
+}
+
+.social-media-links img {
+    height: 20px;
+}
+
+.social-media-links {
+    display: flex;
+    font-size: 20px;
+
+    gap: 20px;
+}
+
+.social-media-links i {
+    color: rgb(59, 59, 59);
+
+}
+
+
+/* contact inputs */
+.contact-inputs__container{
+    
+
+}
+.contact-inputs-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+.contact-inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.contact-inputs-info {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    width: 100%;
+    gap: 32px;
+}
+
+.contact-inputs-container label p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 160%;
+    color: #1d2130;
+    opacity: 0.6;
+}
+
+.contact-inputs-info input {
+    padding: 4px 0;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    outline: none;
+    width: 100%;
+}
+
+input {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1d2130;
+}
+
+::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1d2130;
+    opacity: 0.3;
+}
+
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    max-width: 368px;
+    flex-grow: 1;
+    gap: 32px;
+}
+
+label p {
+    margin-bottom: 4px;
+}
+.contact-inputs-container .text-area{
+    width: 100%;
+    /* max-width: 768px;
+    min-height: 156px;
+    display: flex;
+    flex-direction: column; */
+}
+#message {
+    
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1d2130;
+    padding: 20px 20px 110px 20px;
+    outline: none;
+    flex-grow: 1;
+}
+
+.send-message-button {
+    padding: 16px 32px;
+    background: #70c174;
+    border-radius: 4px;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    width: 170px;
+    height: 51px;
+    margin: 0 auto;
+}
+
+.contact-map {
+    width: 100%;
+    height: 448px;
+}
+
+.contact-map iframe {
+    height: 100%;
+    width: 100%;
+    border:0;
+}
